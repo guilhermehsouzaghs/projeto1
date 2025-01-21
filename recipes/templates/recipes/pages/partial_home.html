@@ -1,0 +1,8 @@
+
+
+{% extends "./home.html" %}
+{% block novo_conteudo %}
+    <h1>{{primeiro_nome}}</h1>
+    <h1>{{segundo_nome|safe}}</h1>
+    <a href="{% url "testando" nome.id %}">Meu link</a>
+{% endblock novo_conteudo %}

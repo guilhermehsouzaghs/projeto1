@@ -1,10 +1,8 @@
 {% include "recipes/partials/head.html" %}
 <body>
 
-    {% for i in qtd %}
-        <h1>{{nome}}</h1>
-    {% endfor %}
-
+    <h1>Esta é a minha pagina principal</h1>
+    {% block novo_conteudo %}{% endblock novo_conteudo %}
     
 </body>
 </html>
